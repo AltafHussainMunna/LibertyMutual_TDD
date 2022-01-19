@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class BaseClass {
 	
 	public static void main(String[] args) {
-		System.setProperty("webDriver.chrome.driver", "./drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriverMac");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.libertymutual.com/");
 		
